@@ -1,0 +1,152 @@
+body {
+  font-size: 30px;
+}
+
+.navbar-inverse {
+  background-color: rgba(0,0,0,.5);
+}
+
+
+
+
+
+.mainmenu a {
+   color:white;
+   display: inline-block;
+   text-decoration:none
+ }
+ .mainmenu a:after {
+   content: "";
+   display: block;
+   width: 0;
+   border-bottom: 10px solid red;
+   margin: 0 auto;
+   transition:all 0.3s linear 0s;
+ }
+
+ .mainmenu a:hover:after {
+   width: 100%;
+ }
+
+.chicago {
+  color:red;
+  
+}
+
+
+
+.carousel-caption {
+   position: absolute;
+   text-align: left;
+   top:   600px;
+   left:  200px;
+   font-size: 30px;
+}
+
+
+
+.carousel-caption a{
+   background-color: green !important;;
+   color:gray;
+   text-align: right;
+}
+
+.carousel-caption a:hover:after {
+    content: "----";
+    color:RED;
+}
+
+.carousel-caption h1{
+   font-size: 70px;
+}
+
+.carousel-caption h3 {
+  position: absolute;
+   content: "";
+   display: block;
+   color:red;
+   border-bottom: 5px solid red;
+   margin: 0 auto;
+   transition:all 0.3s linear 0s;
+   width: 10%;
+   left:  10px;
+   
+
+}
+
+html,body{height:100%;}
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+
+/*
+/* keep full widget on smaller screens */
+@media (max-width: 767px) { 
+	body {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}*/
+.fill{width:100%;height:100%;background-position:center;background-size:cover;}
+
+
+.carousel {
+  height: 100%;
+}
+
+#one {
+    top:   200px;
+    right:  500px;
+    text-align: right;
+}
+
+#two{
+    top:   250px;
+    right:  500px;
+    text-align: right;
+    
+}
+#three {
+    top:   300px;
+    right:  500px;
+    text-align: right;
+}
+#four {
+    top:   350px;
+    right:  500px;
+    text-align: right;
+}
+#five {
+    top:   400px;
+   right:  500px;
+    text-align: right;
+}
+#six{
+    top:   450px;
+    right:  500px;
+    text-align: right;
+}
+#seven{
+    top:   500px;
+    right:  500px;
+    text-align: right;
+}
+#eight{
+    top:   550px;
+    right:  500px;
+    text-align: right;
+}
+#scrolling{
+   font-size: 20px;
+   left:   800px;
+   top: 800px;
+   color:Blue;
+}
+/*#test{
+    top:   600px;
+    right:  500px;
+    text-align: right;
+}*/
+
+/*@import url('//netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/css/bootstrap-combined.min.css');
+.test-over h2 {position: absolute; top: 40%;}*/
+
